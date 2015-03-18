@@ -1,0 +1,7 @@
+<%= form_for @restaurant do |f| %>
+    <p>Name: <%= f.text_field :name %></p>
+    <p>Address: <%= f.text_field :address %></p>
+    <p>Phone number: <%= f.text_field :phone %></p>
+    <p>Description: <%= f.text_field :description %></p>
+    <p><%= f.submit "Add/Update this Restaurant"%></p>
+<% end %>

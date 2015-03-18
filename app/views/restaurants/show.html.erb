@@ -1,0 +1,7 @@
+<p>Name: <%= @restaurant.name %>
+<p>Description: <%= @restaurant.description %>
+<p>Address: <%= @restaurant.address %>
+<p>Phone: <%= @restaurant.phone %>
+
+<p> <%= link_to "Edit", edit_restaurant_path(@restaurant) %>
+<p> <%= link_to "Back", restaurant_path %>
