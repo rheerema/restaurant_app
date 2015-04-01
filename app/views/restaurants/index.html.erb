@@ -9,6 +9,7 @@
       <th colspan="3"></th>
     </tr>
   </thread>
+  <h3><%= link_to 'New', new_restaurant_path %></h3>
   <% @restaurants.each do |restaurant| %>
     <tr>
       <td><%= restaurant.name %></td>
